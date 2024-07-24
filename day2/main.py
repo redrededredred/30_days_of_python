@@ -17,6 +17,10 @@ is_light_on: bool = True
 x,y,z = 10  # woah, multi-line variable asignment
 
 # Level 2
+print(typeof(first_name))
+print(len(first_name))
+print(f"Lenght of Firstname: {len(first_name)}")
+print(f"Lenght of Firstname: {len(last_name)}")
 
 def main() -> None:
     pass
